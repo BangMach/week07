@@ -73,7 +73,7 @@ jobs:
         with:
           python-version: '3.10'
 
-      # 3. Install dependencies and run code quality checks
+      # 3. Install dependencies and run code quality checkss
       - name: Install dependencies
         run: | # Use a multi-line script to install pip dependencies
           pip install --upgrade pip
